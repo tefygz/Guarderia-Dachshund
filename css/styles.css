@@ -229,7 +229,7 @@ p {
   background-image: var(--hero-image);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: -440px;
+  /* background-position-x: -440px; */
   background-attachment: var(--hero-attachment);
 }
 .hero-image-content {
@@ -684,7 +684,7 @@ footer p{
     margin-left: 450px;
    }
    .info-2{
-    margin-left: 0;
+    margin-left: 0px;
   }
    .footer h3 {
     font-size: 3rem;
