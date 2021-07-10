@@ -229,7 +229,7 @@ p {
   background-image: var(--hero-image);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: -440px;
+  background-position-x: -480px;
   background-attachment: var(--hero-attachment);
 }
 .hero-image-content {
@@ -396,6 +396,10 @@ p {
 }
 .testimonials {
   min-height: 100vh;
+  background-image: url('../img/bg-testimonials.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -200px;
   /* border: 1px solid #000; */
 }
 .avatar {
@@ -464,23 +468,10 @@ p {
 .slide blockquote {
   font-weight: 300;
 }
-.testimonials-background {
-  position: absolute;
-  z-index: -1;
-  height: 90vh;
-  width: 90%;
-  /*  border: 1px solid #000; */
-  margin-bottom: 140px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.testimonials-background img {
-  max-width: 900px;
-}
+
 .carousel {
   position: relative;
-  z-index: 11;
+  /* z-index: 11; */
   margin-top: 120px;
 }
 .up{
@@ -492,6 +483,9 @@ p {
 @media screen and (min-width: 1024px) {
   .slide blockquote {
     font-size: 1.2rem;
+  }
+  .testimonials {
+    background-position-x: center;
   }
 }
 /* Galeria */
